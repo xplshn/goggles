@@ -8,7 +8,7 @@
 ! homepage: https://github.com/xplshn/goggles/raw/master/liberty.goggles
 
 ! To refresh the Goggle after a change, go to https://search.brave.com/goggles/create
-! And use https://github.com/xplshn/goggles/raw/master/liberty.goggles
+! And use https://raw.githubusercontent.com/xplshn/goggles/master/liberty.goggles
 
 $boost=10,site=mises.org
 $boost=10,site=antiwar.com
