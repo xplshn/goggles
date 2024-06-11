@@ -26,6 +26,8 @@ $boost=6,site=missliberty.com
 $boost=6,site=boriquagato.substack.com
 $boost=6,site=abbevilleinstitute.org
 /r/Anarcho_Capitalism/$boost=5,site=reddit.com
+$boost=5,site=derechadiario.com.ar
+$boost=4,site=gaysagainstgroomers.com
 $boost=4,site=goldwaterinstitute.org
 $boost=4,site=manhattan-institute.org
 $boost=4,site=mercatus.org
@@ -49,8 +51,6 @@ $boost,site=thecountersignal.com
 $boost,site=projectveritas.com
 $boost,site=thelibertarianrepublic.com
 $boost,site=childrenshealthdefense.org
-$boost,site=derechadiario.com.ar
-$boost,site=gaysagainstgroomers.com
 
 ! Some of these are not particularly pro-liberty, but share the same enemies.
 ! If anything, they are boosted as a way to counter the "downrank" they get everywhere.
