@@ -87,6 +87,7 @@ $downrank=3,site=salon.com
 $downrank=3,site=refinery29.com
 $downrank=3,site=nytimes.com
 $downrank=3,site=msnbc.com
+$downrank=3,site=bbc.com
 $downrank=3,site=buzzfeednews.com
 $downrank=3,site=alternet.org
 $downrank=3,site=abcnews.go.com
