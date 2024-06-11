@@ -1,17 +1,17 @@
-! name: Liberty Sources (v0.1.5)
-! description: Rank results to boost liberty sources, and downrank authoritarian ones.
+! name: Liberty Sources (v0.1.6)
+! description: Rank results to boost liberty sources, and downrank authoritarian ones. (expanded)
 ! public: true
 ! author: JP B and Xplshn
 ! avatar: #ffd700
 ! license: BipCot NoGov Software License https://bipcot.org/stuff/BipCotNoGovSoftwareLicense-v1point2-software.txt
-! issues: https://github.com/jpbochi/goggles/issues
-! homepage: https://github.com/jpbochi/goggles
+! issues: https://github.com/xplshn/goggles/raw/master/liberty.goggles
+! homepage: https://github.com/xplshn/goggles/raw/master/liberty.goggles
 
 ! Inspired by https://github.com/allsides-news/brave-goggles
 ! The list below is just an initial take. It needs be fine-tuned. And, naturally, opinions about it may vary.
 
 ! To refresh the Goggle after a change, go to https://search.brave.com/goggles/create
-! And use https://github.com/jpbochi/goggles/blob/master/liberty.goggles
+! And use https://github.com/xplshn/goggles/raw/master/liberty.goggles
 
 $boost=10,site=mises.org
 $boost=10,site=antiwar.com
