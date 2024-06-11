@@ -64,6 +64,8 @@ $boost,site=washingtonexaminer.com
 $boost,site=wattsupwiththat.com
 
 ! These are enemies of liberty
+$downrank=5,site=pagina12.com
+$downrank=5,site=c5n.com
 /section/opinion^$downrank=4,site=nytimes.com
 $downrank=4,site=vox.com
 $downrank=4,site=thedailybeast.com
