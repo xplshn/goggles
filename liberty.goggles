@@ -120,9 +120,8 @@ $boost=3,site=childrenshealthdefense.org
 $boost=5,site=reason.com
 $boost=5,site=libertarianism.org
 $boost=4,site=2ch.net
-$boost=4,site=x.com
+!$boost=4,site=x.com ! has too many bots
 $boost=4,site=nichegamer.com
-$boost=4,site=eff.org
 $boost=3,site=thefederalist.com
 $boost=3,site=freedomhouse.org
 $boost=3,site=thevolokhconspiracy.com
@@ -185,6 +184,9 @@ $boost,site=thegatewaypundit.com
 $boost,site=mintpressnews.com
 $boost,site=washingtonexaminer.com
 $boost,site=wattsupwiththat.com
+
+! Have been ruined by their political agenda
+$downrank=5,site=eff.org
 
 ! These are enemies of liberty
 $downrank=5,site=pagina12.com.ar
