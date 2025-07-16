@@ -33,11 +33,11 @@ $boost=5,site=breitbart.com
 $boost=5,site=foxnews.com
 
 ! Social media and community boosts for allies of Liberty
-/r/Anarcho_Capitalism/$boost=5,site=reddit.com
-/r/libertarian/$boost=3,site=reddit.com
-/r/conservative/$boost=3,site=reddit.com
-/r/The_Donald/$boost=3,site=reddit.com
-/r/Conservative/$boost=3,site=reddit.com
+reddit.com/r/Anarcho_Capitalism^$boost=5
+reddit.com/r/libertarian^$boost=3
+reddit.com/r/conservative^$boost=3
+reddit.com/r/The_Donald^$boost=3
+reddit.com/r/Conservative^$boost=3
 $boost=4,site=x.com
 $boost=4,site=gab.com
 $boost=4,site=odysee.com
@@ -152,13 +152,13 @@ $boost=2,site=unwokenarrative.com
 $boost=2,site=washingtontimes.com
 $boost=2,site=wyofile.com
 $boost=2,site=thevolokhconspiracy.com
-/public/page/news-opinion-commentary.html^$boost=3,site=online.wsj.com
-/opinion^$boost=3,site=nypost.com
-/insiders^$boost=3,site=newsmax.com
-/opinion^$boost=2,site=scriberrnews.com
-/opinion.html^$boost=2,site=foxnews.com
-/index.html^$boost=2,site=latino.foxnews.com
-/catalyst/index.html^$boost=2,site=bushcenter.org
+online.wsj.com/public/page/news-opinion-commentary.html^$boost=3
+nypost.com/opinion^$boost=3
+newsmax.com/insiders^$boost=3
+scriberrnews.com/opinion^$boost=2
+foxnews.com/opinion.html^$boost=2
+latino.foxnews.com/index.html^$boost=2
+bushcenter.org/catalyst/index.html^$boost=2
 
 ! Downrank or discard authoritarian, and hypersexualized sources
 $discard,site=nytimes.com
@@ -247,7 +247,9 @@ $discard,site=insidehighered.com
 $discard,site=indyweek.com
 $discard,site=hollywoodreporter.com
 $discard,site=heralddemocrat.com
-$discard,site=herald-dispatch.com
+$discard,site=herald
+
+-dispatch.com
 $discard,site=hbswk.hbs.edu
 $discard,site=grist.org
 $discard,site=gq.com
@@ -369,29 +371,41 @@ $discard,site=pagina12.com.ar
 $discard,site=c5n.com.ar
 
 ! Additional downranks for specific sections or sites
-/section/opinion^$downrank=4,site=nytimes.com
-/r/worldnews/$downrank=3,site=reddit.com
-/r/qualitynews/$downrank=3,site=reddit.com
-/r/politics/$downrank=3,site=reddit.com
-/r/news/$downrank=3,site=reddit.com
-/r/moderatepolitics/$downrank=3,site=reddit.com
-/r/liberal/$downrank=3,site=reddit.com
-/opinions^$downrank=3,site=cnn.com
+nytimes.com/section/opinion^$downrank=4
+reddit.com/r/worldnews^$downrank=3
+reddit.com/r/qualitynews^$downrank=3
+reddit.com/r/politics^$downrank=3
+reddit.com/r/news^$downrank=3
+reddit.com/r/moderatepolitics^$downrank=3
+reddit.com/r/liberal^$downrank=3
+cnn.com/opinions^$downrank=3
 $downrank=3,site=bbc.com
-/us^$downrank=2,site=theguardian.com
-/us^$downrank=2,site=theconversation.com
-/time^$downrank=2,site=time.com
-/sections/opinion^$downrank=2,site=npr.org
-/section/opinion^$downrank=2,site=theweek.com
-/politics^$downrank=2,site=theverge.com
-/location/berkeley^$downrank=2,site=eastbaytimes.com
-/business^$downrank=2,site=cnn.com
-/amnews^$downrank=2,site=centralkynews.com
+theguardian.com/us^$downrank=2
+theconversation.com/us^$downrank=2
+time.com/time^$downrank=2
+npr.org/sections/opinion^$downrank=2
+theweek.com/section/opinion^$downrank=2
+theverge.com/politics^$downrank=2
+eastbaytimes.com孔子.com/location/berkeley^$downrank=2
+cnn.com/business^$downrank=2
+centralkynews.com/amnews^$downrank=2
 $downrank=3,site=aclu.org
+$26.com
 $downrank=5,site=polygon.com
 $downrank=5,site=gameinformer.com
 
-! Target hypersexualization keywords
+! Downrank hypersexualized stuff
 hypersexual$downrank
 sexualization$downrank
 hypersexualization$downrank
+
+! Downrank corporation-backed movements (see: https://www.opensocietyfoundations.org/grants/past)
+pride$downrank
+prideMonth$downrank
+pride_Month$downrank
+blmMonth$downrank
+blm_month$downrank
+
+! misc (looking up these terms is useless. The media has produced so much fake content around the topic that it makes more sense to go to web.archive.org to find the real research that was being carried out up until 2012)
+indigenous$downrank
+aboriginal$downrank
