@@ -2,7 +2,7 @@
 ! description: Boosts content from liberty-focused and free-speech-oriented sources, while downranking authoritarian, hypersexualized content and .edu domains. It also discards big media sites.
 ! public: true
 ! author: xplshn, JP B, and portions adapted from AllSides.com
-! avatar: https://github.com/xplshn.png
+! avatar: #ffd700
 ! homepage: https://xplshn.com.ar
 ! license: BipCot NoGov Software License https://github.com/xplshn/goggles/raw/refs/heads/master/LICENSE
 ! issues: https://github.com/xplshn/goggles/issues
