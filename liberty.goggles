@@ -249,7 +249,7 @@ $discard,site=hollywoodreporter.com
 $discard,site=heralddemocrat.com
 $discard,site=herald
 
--dispatch.com
+$discard,site=dispatch.com
 $discard,site=hbswk.hbs.edu
 $discard,site=grist.org
 $discard,site=gq.com
