@@ -35,13 +35,12 @@ $boost=5,site=foxnews.com
 ! Social media and community boosts for allies of Liberty
 reddit.com/r/Anarcho_Capitalism^$boost=5
 reddit.com/r/libertarian^$boost=3
-reddit.com/r/The_Donald^$boost=3
-reddit.com/r/Conservative^$boost=3
-$boost=4,site=x.com
-$boost=4,site=gab.com
-$boost=4,site=odysee.com
-$boost=4,site=bitchute.com
-$boost=4,site=rumble.com
+reddit.com/r/conservative^$boost=2
+!$boost=4,site=x.com
+!$boost=4,site=gab.com
+!$boost=4,site=odysee.com
+!$boost=4,site=bitchute.com
+!$boost=4,site=rumble.com
 
 ! paleoLibertarian sources
 $boost=4,site=gaysagainstgroomers.com
@@ -245,10 +244,7 @@ $discard,site=insider.com
 $discard,site=insidehighered.com
 $discard,site=indyweek.com
 $discard,site=hollywoodreporter.com
-$discard,site=heralddemocrat.com
-$discard,site=herald
-
-$discard,site=dispatch.com
+$discard,site=herald-dispatch.com
 $discard,site=hbswk.hbs.edu
 $discard,site=grist.org
 $discard,site=gq.com
@@ -385,10 +381,10 @@ time.com/time^$downrank=2
 npr.org/sections/opinion^$downrank=2
 theweek.com/section/opinion^$downrank=2
 theverge.com/politics^$downrank=2
+eastbaytimes.com/location/berkeley^$downrank=2
 cnn.com/business^$downrank=2
 centralkynews.com/amnews^$downrank=2
 $downrank=3,site=aclu.org
-$26.com
 $downrank=5,site=polygon.com
 $downrank=5,site=gameinformer.com
 
