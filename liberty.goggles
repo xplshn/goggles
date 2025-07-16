@@ -35,7 +35,6 @@ $boost=5,site=foxnews.com
 ! Social media and community boosts for allies of Liberty
 reddit.com/r/Anarcho_Capitalism^$boost=5
 reddit.com/r/libertarian^$boost=3
-reddit.com/r/conservative^$boost=3
 reddit.com/r/The_Donald^$boost=3
 reddit.com/r/Conservative^$boost=3
 $boost=4,site=x.com
