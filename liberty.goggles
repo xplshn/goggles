@@ -307,16 +307,16 @@ $downrank=3,site=who.int
 $downrank=3,site=weforum.org
 
 ! Saying any of the following keywords already discredits you. Now it also downranks you:
-*far right*$incontent,$downrank=2 ! what even is far-right? no one on the left nor center seems to agree. Apparently democrats from 20-years ago could be considered far-right by the new standards imposed by the media
-*far-right*$incontent,$downrank=2 ! same as above
-*moderate left*$incontent,$downrank=1
-activism$incontent,$downrank=1 ! not a proffesion you can honestly make an earning from
-free*state-owned$incontent,$downrank=2
-*fascist*$incontent,$downrank=2 ! only the center-left to extreme-left call other people fascist most usually because they don't have anything specific to criticize
-*nazi*$incontent,$downrank=1 ! same as above
-*punch nazis*$incontent,$downrank=3 ! everyone is a nazi according to the left., this is their justification for their violence
-tiktok$incontent,$downrank=4
-experts$incontent,$downrank=2
+"far right"$incontent,$downrank=2 ! what even is "far-right"? no one on the left nor center seems to agree. Apparently democrats from 20-years ago could be considered far-right by the new standards imposed by the media
+"moderate left"$incontent,$downrank=1 ! is such a thing possible?
+activism$incontent,$downrank=1
+"free*healthcare"$incontent,$downrank=2
+"free*state-owned"$incontent,$downrank=2
+fascist$incontent,$downrank=2 ! only the center-left to extreme-left call other people fascist and its usually because they don't have any thing specific to criticize
+nazi$incontent,$downrank=1 ! same as above
+"punch nazis"$incontent,$downrank=3 ! everyone is a nazi according to the left and its their justification for violence
+tiktok$downrank=2
+experts$incontent,$downrank=1
 
 ! Downrank hypersexualized stuff
 hypersexual$downrank=1
