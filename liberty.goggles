@@ -307,14 +307,14 @@ $downrank=3,site=who.int
 $downrank=3,site=weforum.org
 
 ! Saying any of the following keywords already discredits you. Now it also downranks you:
-"far right"$incontent,$downrank=2 ! what even is farRight? no one on the left nor center seems to agree. Apparently democrats from 20-years ago could be considered farRight by the new standards imposed by the media
-"moderate left"$incontent,$downrank=1 ! is such a thing possible?
+"far right",$incontent,$downrank=2 ! what even is farRight? no one on the left nor center seems to agree. Apparently democrats from 20-years ago could be considered farRight by the new standards imposed by the media
+"moderate left",$incontent,$downrank=1 ! is such a thing possible?
 activism$incontent,$downrank=1
 "free*healthcare"$incontent,$downrank=2
 "free*state-owned"$incontent,$downrank=2
-fascist$incontent,$downrank=2 ! only the centerLeft to extremeLeft call other people fascist and its usually because they dont have any thing specific to criticize
-nazi$incontent,$downrank=1 ! same as above
-"punch nazis"$incontent,$downrank=3 ! everyone is a nazi according to the left and its their justification for violence
+fascist,$incontent,$downrank=2 ! only the centerLeft to extremeLeft call other people fascist and its usually because they dont have any thing specific to criticize
+nazi,$incontent,$downrank=1 ! same as above
+"punch nazis",$incontent,$downrank=3 ! everyone is a nazi according to the left and its their justification for violence
 tiktok$downrank=2
 experts$incontent,$downrank=1
 
