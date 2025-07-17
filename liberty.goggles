@@ -1,7 +1,7 @@
 ! name: Liberty Sources (v0.1.9)
 ! description: Boosts content from liberty-focused and free-speech-oriented sources, while downranking authoritarian, hypersexualized content and .edu domains. It also discards big media sites. Perfect goggles for an AnarchoCapitalist/Minarchist/Objectivist/paleoLibertarian
 ! public: true
-! author: Xplshn, JP B and portions taken from AllSides
+! author: Xplshn, JP B
 ! avatar: #ffd700
 ! license: BipCot NoGov Software License https://github.com/xplshn/goggles/raw/master/LICENSE
 ! issues: https://github.com/xplshn/goggles/issues
@@ -307,12 +307,12 @@ $downrank=3,site=who.int
 $downrank=3,site=weforum.org
 
 ! Saying any of the following keywords already discredits you. Now it also downranks you:
-far-right$downrank=2 ! what even is "far-right"? no one on the left nor center seems to agree. Apparently democrats from 20-years ago could be considered far-right by the new standards imposed by the media
-moderate-left$downrank=1 ! is such a thing possible?
+"far-right"$downrank=2 ! what even is "far-right"? no one on the left nor center seems to agree. Apparently democrats from 20-years ago could be considered far-right by the new standards imposed by the media
+"moderate-left"$downrank=1 ! is such a thing possible?
 activism$downrank=1
 "free*healthcare"$downrank=2
-"free*state-owned*"$downrank=2
-fascist$downrank=2 ! only the center-left to extreme-left call other people fascist, usually because they don't have anything specific to criticize
+"free*state-owned"$downrank=2
+fascist$downrank=2 ! only the center-left to extreme-left call other people fascist, usually because they don't have any thing specific to criticize
 nazi$downrank=1 ! same as above
 "punch nazis"$downrank=3 ! everyone is a nazi according to the left., this is their justification for their violence
 tiktok$downrank=4
