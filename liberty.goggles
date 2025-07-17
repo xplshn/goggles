@@ -311,6 +311,7 @@ $downrank=3,site=weforum.org
 "far right"$incontent,$downrank=2
 ! is such a thing possible?
 "moderate left"$incontent,$downrank=1
+! activism is not a proffesion
 activism$incontent,$downrank=1
 "free*healthcare"$incontent,$downrank=2
 "free*state-owned"$incontent,$downrank=2
