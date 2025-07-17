@@ -347,9 +347,6 @@ trans_month$downrank=1
 aboriginal$downrank=1
 indigenous$downrank=1
 
-! gets too much attention because of the other boosts, so let's downrank by one
-argentina$downrank=1
-
 ! should get more attention because its a case of success
 poland$boost=1
 
