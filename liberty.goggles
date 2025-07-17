@@ -120,7 +120,7 @@ $boost=1,site=christianitytoday.com
 $boost=1,site=capitalresearch.org
 
 ! Other boosted sites (Not necessarily focused on Libertarianism, but share a lot of common ground)
-$boost=8,site=derechadiario.com.ar
+$boost=5,site=derechadiario.com.ar
 $boost=5,site=gaysagainstgroomers.com
 $boost=4,site=childrenshealthdefense.org
 $boost=4,site=nichegamer.com
