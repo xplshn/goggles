@@ -149,8 +149,12 @@ $downrank=4,site=canyoncountryzephyr.com
 /r/politics/$downrank=4,site=reddit.com
 /r/news/$downrank=4,site=reddit.com
 /r/moderatepolitics/$downrank=4,site=reddit.com
-/economia^$downrank=4,site=infobae.com
-/politica^$downrank=4,site=infobae.com
+/economia/$downrank=4,site=infobae.com
+/politica/$downrank=4,site=infobae.com
+/economia/$downrank=4,site=clarin.com
+/politica/$downrank=4,site=clarin.com
+/economia/$downrank=4,site=elpais.com
+/politica/$downrank=4,site=elpais.com
 $downrank=3,site=washingtonpost.com
 $downrank=3,site=usatoday.com
 $downrank=3,site=salon.com
@@ -160,8 +164,6 @@ $downrank=3,site=bbc.com
 $downrank=3,site=buzzfeednews.com
 $downrank=3,site=alternet.org
 $downrank=3,site=abcnews.go.com
-$downrank=3,site=infobae.com
-$downrank=3,site=clarin.com
 /us^$downrank=2,site=theguardian.com
 /us^$downrank=2,site=theconversation.com
 /time^$downrank=2,site=time.com
@@ -298,15 +300,21 @@ $downrank=3,site=dailycaller.com
 $downrank=3,site=pjmedia.com
 $downrank=3,site=thespectator.com
 
+! Supra-national non-democratic/corporativist organizations
+$downrank=3,site=un.org
+$downrank=3,site=onu.org
+$downrank=3,site=who.int
+$downrank=3,site=weforum.org
+
 ! Saying any of the following keywords already discredits you. Now it also downranks you:
 far-right$downrank=1 ! what even is "far-right"? no one on the left nor center seems to agree. Apparently democrats from 20-years ago could be considered far-right by the new standards imposed by the media
 moderate-left$downrank=1 ! is such a thing possible?
 activism$downrank=1
-!"free healthcare"$downrank=1
-!"free state-owned"$downrank=1
+"free healthcare"$downrank=1
+"free state-owned"$downrank=1
 fascist$downrank=1 ! only the center-left to extreme-left call other people fascist, usually because they don't have anything specific to criticize
 nazi$downrank=1 ! same as above
-!"punch nazis"$downrank=1 ! everyone is a nazi according to the left., this is their justification for their violence
+"punch nazis"$downrank=1 ! everyone is a nazi according to the left., this is their justification for their violence
 tiktok$downrank=1
 
 ! Downrank hypersexualized stuff
@@ -322,21 +330,21 @@ pride_month$downrank=1
 blmMonth$downrank=1
 blm_month$downrank=1
 ! ---
-transPride$downrank=1
-transMonth$downrank=1
-trans_pride$downrank=1
-trans_month$downrank=1
+$downrank=1,transPride
+$downrank=1,transMonth
+$downrank=1,trans_pride
+$downrank=1,trans_month
 ! ---
 
 ! misc (looking up these terms is useless. The media has produced so much fake content around the topic that it makes more sense to go to web.archive.org to find the real research that was being carried out up until 2012)
-indigenous$downrank=1
-aboriginal$downrank=1
+$downrank=1,indigenous
+$downrank=1,aboriginal
 
 ! gets too much attention because of the other boosts, so let's downrank by one
-argentina$downrank=1
+$downrank=1,argentina
 
 ! should get more attention because its a case of success
-poland$boost=1
+$boost=1,poland
 
 ! Sites to discard entirely (Propaganda/Extremely Biased)
 $discard=1,site=nytimes.com
