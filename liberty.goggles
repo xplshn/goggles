@@ -65,13 +65,13 @@ $boost,site=rwmalonemd.substack.com
 $boost,site=alexberenson.substack.com
 
 ! Libertarian-aligned/Free Speech Platforms (Not necessarily trustworthy, but discernment is a virtue most Libertarians have)
-$boost=3,site=rumble.com
-$boost=3,site=gab.com
-$boost=3,site=bitchute.com
+!$boost=4,site=x.com ! has too many bots
+$boost=4,site=2ch.net
+$boost=1,site=rumble.com
+$boost=1,site=gab.com
+$boost=1,site=bitchute.com
 $boost,site=odysee.com
 $boost,site=bitchute.com
-$boost=4,site=2ch.net
-!$boost=4,site=x.com ! has too many bots
 
 ! Conservative Newsites
 /r/conservative/$boost=1,site=reddit.com
@@ -80,8 +80,8 @@ $boost=4,site=2ch.net
 /public/page/news-opinion-commentary.html^$boost=1,site=online.wsj.com
 /opinion^$boost=1,site=nypost.com
 /insiders^$boost=1,site=newsmax.com
+$boost=2,site=dailywire.com
 $boost=1,site=unherd.com
-$boost=1,site=dailywire.com
 $boost=1,site=babylonbee.com
 $boost=1,site=theblaze.com
 $boost=1,site=thefiscaltimes.com
@@ -97,7 +97,6 @@ $boost=1,site=thedispatch.com
 $boost=1,site=thecollegefix.com
 $boost=1,site=telegraph.co.uk
 $boost=1,site=tabletmag.com
-$boost=1,site=rt.com
 $boost=1,site=riponadvance.org
 $boost=1,site=rightsidenews.com
 $boost=1,site=richmond.com
@@ -105,7 +104,6 @@ $boost=1,site=revolver.news
 $boost=1,site=penncapital-star.com
 $boost=1,site=pe.com
 $boost=1,site=ocregister.com
-$boost=1,site=nypost.com
 $boost=1,site=nfib.com
 $boost=1,site=nationalpost.com
 $boost=1,site=liveactionnews.org
@@ -121,7 +119,6 @@ $boost=1,site=heritage.org
 $boost=1,site=georgiastarnews.com
 $boost=1,site=freedomhouse.org
 $boost=1,site=freebeacon.com
-$boost=1,site=foxbusiness.com
 $boost=1,site=floridacapitalstar.com
 $boost=1,site=eviemagazine.com
 $boost=1,site=drudgereport.com
@@ -136,45 +133,7 @@ $boost=1,site=christianitytoday.com
 $boost=1,site=capitalresearch.org
 $boost=1,site=bluelivesmatter.blue
 $boost=1,site=babylonbee.com
-$boost=1,site=amgreatness.com
-$boost=1,site=americanmind.org
-$boost=1,site=thefederalist.com
-$boost=1,site=freedomhouse.org
-$boost=1,site=theblaze.com
-$boost=1,site=thefiscaltimes.com
-$boost=1,site=wnd.com
-$boost=1,site=weeklystandard.com
-$boost=1,site=prageru.com
-$boost=1,site=newsbusters.org
-$boost=1,site=mrc.org
-$boost=1,site=foxnews.com
-$boost=1,site=breitbart.com
-$boost=1,site=bearingdrift.com
-$boost=1,site=westernjournalism.com
-$boost=1,site=washingtonexaminer.com
-$boost=1,site=townhall.com
-$boost=1,site=theimaginativeconservative.org
-$boost=1,site=theamericanconservative.org
-$boost=1,site=spectator.org
-$boost=1,site=newsmax.com
-$boost=1,site=nationalreview.com
-$boost=1,site=frontpagemag.com
-$boost=1,site=dailymail.co.uk
-$boost=1,site=dailycaller.com
-$boost=1,site=cnsnews.com
-$boost=1,site=cbn.com
-$boost=1,site=americanthinker.com
-$boost=1,site=aim.org
-/opinion^$boost=1,site=scriberrnews.com
-/opinion.html^$boost=1,site=foxnews.com
-/index.html^$boost=1,site=latino.foxnews.com
-/catalyst/index.html^$boost=1,site=bushcenter.org
-$boost=1,site=wyofile.com
-$boost=1,site=washingtontimes.com
 $boost=1,site=unwokenarrative.com
-$boost=1,site=thetexan.news
-$boost=1,site=thegatewaypundit.com
-$boost=1,site=washingtonexaminer.com
 
 ! Other boosted sites (Not necessarily focused on Libertarianism, but share a lot of common ground)
 $boost=8,site=derechadiario.com.ar
@@ -532,6 +491,7 @@ $discard,site=motherboard.vice.com
 $discard,site=theguardian.com
 $discard,site=dailywire.com
 $discard,site=huffpost.com
+$discard,site=rt.com
 $discard,site=nydailynews.com
 $discard,site=theregister.com
 $discard,site=theverge.com
