@@ -1,2 +1,2 @@
 - [Query URL](https://search.brave.com/goggles?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Fxplshn%2Fgoggles%2Fmaster%2Fliberty.goggles&q=xplshn.com.ar): `https://search.brave.com/goggles?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Fxplshn%2Fgoggles%2Fmaster%2Fliberty.goggles&q=%s`
-- [Goggle URL](https://search.brave.com/goggles/profile?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Fxplshn%2Fgoggles%2Frefs%2Fheads%2Fmaster%2Fliberty.goggles&q=xplshn.com.ar)
+- [Goggle URL](https://search.brave.com/goggles/profile?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Fxplshn%2Fgoggles%2Fmaster%2Fliberty.goggles&q=xplshn.com.ar)
