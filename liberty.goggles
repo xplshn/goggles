@@ -176,7 +176,8 @@ $boost=1,site=thetexan.news
 $boost=1,site=thegatewaypundit.com
 $boost=1,site=washingtonexaminer.com
 
-! Other boosted sites (Not necessarily pro-liberty, but share common ground or counter mainstream narratives)
+! Other boosted sites (Not necessarily focused on Libertarianism, but share a lot of common ground)
+$boost=8,site=derechadiario.com.ar
 $boost=4,site=gaysagainstgroomers.com
 $boost=4,site=nichegamer.com
 $boost=3,site=childrenshealthdefense.org
@@ -184,7 +185,6 @@ $boost,site=thegrayzone.com
 $boost,site=zerohedge.com
 $boost,site=mintpressnews.com
 $boost,site=wattsupwiththat.com
-$boost=5,site=derechadiario.com.ar
 
 ! Have been ruined by their political agenda
 $downrank=5,site=eff.org
@@ -192,7 +192,6 @@ $downrank=5,site=eff.org
 ! These are enemies of liberty
 $downrank=5,site=pagina12.com.ar
 $downrank=5,site=c5n.com.ar
-/section/opinion^$downrank=4,site=nytimes.com
 $downrank=4,site=vox.com
 $downrank=4,site=thedailybeast.com
 $downrank=4,site=mediamatters.org
@@ -200,13 +199,14 @@ $downrank=4,site=huffpost.com
 $downrank=4,site=cnn.com
 $downrank=4,site=care2.com
 $downrank=4,site=canyoncountryzephyr.com
-/r/worldnews/$downrank=3,site=reddit.com
-/r/qualitynews/$downrank=3,site=reddit.com
-/r/politics/$downrank=3,site=reddit.com
-/r/news/$downrank=3,site=reddit.com
-/r/moderatepolitics/$downrank=3,site=reddit.com
-/r/liberal/$downrank=3,site=reddit.com
-/opinions^$downrank=3,site=cnn.com
+/r/worldnews/$downrank=5,site=reddit.com
+/r/liberal/$downrank=5,site=reddit.com
+/section/opinion^$downrank=5,site=nytimes.com
+/opinions^$downrank=5,site=cnn.com
+/r/qualitynews/$downrank=4,site=reddit.com
+/r/politics/$downrank=4,site=reddit.com
+/r/news/$downrank=4,site=reddit.com
+/r/moderatepolitics/$downrank=4,site=reddit.com
 $downrank=3,site=washingtonpost.com
 $downrank=3,site=usatoday.com
 $downrank=3,site=salon.com
