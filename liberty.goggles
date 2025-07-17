@@ -15,8 +15,8 @@
 /r/libertarian/$boost=3,site=reddit.com
 
 ! Libertarian Newsites
-$boost=10,site=mises.org
-$boost=10,site=antiwar.com
+$boost0,site=mises.org
+$boost0,site=antiwar.com
 $boost=9,site=libertarianinstitute.org
 $boost=9,site=ronpaulinstitute.org
 $boost=8,site=fee.org
@@ -37,7 +37,7 @@ $boost,site=reclaimthenet.org
 $boost,site=lewrockwell.com
 $boost,site=schiffgold.com
 $boost,site=blog.heartland.org
-$boost,site=off-guardian.com
+$boost,site=off-guardian.org
 $boost,site=rationalground.com
 $boost,site=thecountersignal.com
 $boost,site=projectveritas.com
@@ -49,7 +49,7 @@ $boost=2,site=mercatus.org
 $boost=2,site=independent.org
 $boost=2,site=fee.org
 $boost=2,site=brownstone.org
-$boost=2,site=city-journal.org
+$boost=2,site=city-journal.com
 $boost=2,site=reason.org
 $boost=2,site=reason.com
 $boost=2,site=projectveritas.com
@@ -66,80 +66,76 @@ $boost,site=alexberenson.substack.com
 
 ! Libertarian-aligned/Free Speech Platforms (Not necessarily trustworthy, but discernment is a virtue most Libertarians have)
 !$boost=4,site=x.com ! has too many bots
-$boost=4,site=2ch.net
-$boost=1,site=rumble.com
-$boost=1,site=gab.com
-$boost=1,site=bitchute.com
+$boost,site=2ch.net
+$boost,site=rumble.com
+$boost,site=gab.com
+$boost,site=bitchute.com
 $boost,site=odysee.com
 $boost,site=bitchute.com
 
 ! Conservative Newsites
-/r/conservative/$boost=1,site=reddit.com
-/r/The_Donald/$boost=1,site=reddit.com
-/r/Conservative/$boost=1,site=reddit.com
-/public/page/news-opinion-commentary.html^$boost=1,site=online.wsj.com
-/opinion^$boost=1,site=nypost.com
-/insiders^$boost=1,site=newsmax.com
+$boost=2,site=unwokenarrative.com
 $boost=2,site=dailywire.com
-$boost=1,site=unherd.com
-$boost=1,site=babylonbee.com
-$boost=1,site=theblaze.com
-$boost=1,site=thefiscaltimes.com
-$boost=1,site=theresurgent.net
-$boost=1,site=thepostmillennial.com
-$boost=1,site=thenationalpulse.com
-$boost=1,site=themichiganstar.com
-$boost=1,site=thegatewaypundit.com
-$boost=1,site=thefiscaltimes.com
-$boost=1,site=thefederalist.com
-$boost=1,site=theepochtimes.com
-$boost=1,site=thedispatch.com
-$boost=1,site=thecollegefix.com
-$boost=1,site=telegraph.co.uk
-$boost=1,site=tabletmag.com
-$boost=1,site=riponadvance.org
-$boost=1,site=rightsidenews.com
-$boost=1,site=richmond.com
-$boost=1,site=revolver.news
-$boost=1,site=penncapital-star.com
-$boost=1,site=pe.com
-$boost=1,site=ocregister.com
-$boost=1,site=nfib.com
-$boost=1,site=nationalpost.com
-$boost=1,site=liveactionnews.org
-$boost=1,site=leesburgtoday.com
-$boost=1,site=ksl.com
-$boost=1,site=judicialwatch.org
-$boost=1,site=iowatorch.com
-$boost=1,site=investors.com
-$boost=1,site=inacow.com
-$boost=1,site=ijreview.com
-$boost=1,site=hotair.com
-$boost=1,site=heritage.org
-$boost=1,site=georgiastarnews.com
-$boost=1,site=freedomhouse.org
-$boost=1,site=freebeacon.com
-$boost=1,site=floridacapitalstar.com
-$boost=1,site=eviemagazine.com
-$boost=1,site=drudgereport.com
-$boost=1,site=desiringgod.com
-$boost=1,site=deseret.com
-$boost=1,site=dailypress.com
-$boost=1,site=dailycitizen.focusonthefamily.com
-$boost=1,site=conservativehq.com
-$boost=1,site=commentarymagazine.com
-$boost=1,site=christianpost.com
-$boost=1,site=christianitytoday.com
-$boost=1,site=capitalresearch.org
-$boost=1,site=bluelivesmatter.blue
-$boost=1,site=babylonbee.com
-$boost=1,site=unwokenarrative.com
+$boost=2,site=bluelivesmatter.blue
+$boost=2,site=babylonbee.com
+/r/conservative/$boost,site=reddit.com
+/r/The_Donald/$boost,site=reddit.com
+/r/Conservative/$boost,site=reddit.com
+$boost,site=unherd.com
+$boost,site=theblaze.com
+$boost,site=thefiscaltimes.com
+$boost,site=theresurgent.net
+$boost,site=thepostmillennial.com
+$boost,site=thenationalpulse.com
+$boost,site=themichiganstar.com
+$boost,site=thegatewaypundit.com
+$boost,site=thefiscaltimes.com
+$boost,site=thefederalist.com
+$boost,site=theepochtimes.com
+$boost,site=thedispatch.com
+$boost,site=thecollegefix.com
+$boost,site=telegraph.co.uk
+$boost,site=tabletmag.com
+$boost,site=riponadvance.org
+$boost,site=rightsidenews.com
+$boost,site=richmond.com
+$boost,site=revolver.news
+$boost,site=penncapital-star.com
+$boost,site=pe.com
+$boost,site=ocregister.com
+$boost,site=nfib.com
+$boost,site=nationalpost.com
+$boost,site=liveactionnews.org
+$boost,site=leesburgtoday.com
+$boost,site=ksl.com
+$boost,site=judicialwatch.org
+$boost,site=iowatorch.com
+$boost,site=investors.com
+$boost,site=inacow.com
+$boost,site=ijreview.com
+$boost,site=hotair.com
+$boost,site=heritage.org
+$boost,site=georgiastarnews.com
+$boost,site=freedomhouse.org
+$boost,site=freebeacon.com
+$boost,site=floridacapitalstar.com
+$boost,site=eviemagazine.com
+$boost,site=drudgereport.com
+$boost,site=desiringgod.com
+$boost,site=deseret.com
+$boost,site=dailypress.com
+$boost,site=dailycitizen.focusonthefamily.com
+$boost,site=conservativehq.com
+$boost,site=commentarymagazine.com
+$boost,site=christianpost.com
+$boost,site=christianitytoday.com
+$boost,site=capitalresearch.org
 
 ! Other boosted sites (Not necessarily focused on Libertarianism, but share a lot of common ground)
 $boost=8,site=derechadiario.com.ar
-$boost=4,site=gaysagainstgroomers.com
+$boost=5,site=gaysagainstgroomers.com
+$boost=4,site=childrenshealthdefense.org
 $boost=4,site=nichegamer.com
-$boost=3,site=childrenshealthdefense.org
 $boost,site=thegrayzone.com
 $boost,site=zerohedge.com
 $boost,site=mintpressnews.com
@@ -148,7 +144,7 @@ $boost,site=wattsupwiththat.com
 ! Have been ruined by their political agenda
 $downrank=5,site=eff.org
 
-! These are enemies of liberty
+! These are enemies of liberty (mainstream media, authoritarian propaganda, hypersexualized/sensationalist, politically biased)
 $downrank=5,site=pagina12.com.ar
 $downrank=5,site=c5n.com.ar
 $downrank=4,site=vox.com
@@ -289,6 +285,49 @@ $downrank=2,site=americanprogress.org
 $downrank=2,site=aljazeera.com
 $downrank=2,site=ajplus.net
 $downrank=2,site=ajc.com
+$downrank=5,site=polygon.com
+$downrank=5,site=gameinformer.com
+$downrank=3,site=aclu.org
+$downrank,site=.edu
+$downrank=4,site=sputniknews.com
+$downrank=4,site=globaltimes.cn
+$downrank=4,site=xinhuanet.com
+$downrank=4,site=presstv.ir
+$downrank=4,site=telesurenglish.net
+$downrank=4,site=tass.com
+$downrank=3,site=izvestia.ru
+$downrank=3,site=pravda.ru
+$downrank=3,site=tmz.com
+$downrank=3,site=eonline.com
+$downrank=3,site=thesun.co.uk
+$downrank=3,site=mirror.co.uk
+$downrank=3,site=worldstarhiphop.com
+$downrank=3,site=motherjones.com
+$downrank=3,site=rawstory.com
+$downrank=3,site=occupydemocrats.com
+$downrank=3,site=liberalamerica.org
+$downrank=3,site=redstate.com
+$downrank=3,site=dailycaller.com
+$downrank=3,site=pjmedia.com
+$downrank=3,site=thespectator.com
+
+! Downrank hypersexualized stuff
+hypersexual$downrank
+sexualization$downrank
+hypersexualization$downrank
+
+! Downrank corporation-backed movements (see: https://www.opensocietyfoundations.org/grants/past)
+pride$downrank
+prideMonth$downrank
+pride_Month$downrank
+blmMonth$downrank
+blm_month$downrank
+
+! misc (looking up these terms is useless. The media has produced so much fake content around the topic that it makes more sense to go to web.archive.org to find the real research that was being carried out up until 2012)
+indigenous$downrank
+aboriginal$downrank
+
+! Sites to discard entirely (Mainstream/Propaganda/Extremely Biased)
 $discard,site=nytimes.com
 $discard,site=vox.com
 $discard,site=thedailybeast.com
@@ -518,24 +557,3 @@ $discard,site=wsj.com
 $discard,site=thegatewaypundit.com
 $discard,site=dailywire.com
 $discard,site=.edu
-
-$downrank=5,site=polygon.com
-$downrank=5,site=gameinformer.com
-$downrank=3,site=aclu.org
-$downrank,site=.edu
-
-! Downrank hypersexualized stuff
-hypersexual$downrank
-sexualization$downrank
-hypersexualization$downrank
-
-! Downrank corporation-backed movements (see: https://www.opensocietyfoundations.org/grants/past)
-pride$downrank
-prideMonth$downrank
-pride_Month$downrank
-blmMonth$downrank
-blm_month$downrank
-
-! misc (looking up these terms is useless. The media has produced so much fake content around the topic that it makes more sense to go to web.archive.org to find the real research that was being carried out up until 2012)
-indigenous$downrank
-aboriginal$downrank
