@@ -1,7 +1,7 @@
 ! name: Liberty Sources (v0.1.8)
 ! description: Boosts content from liberty-focused and free-speech-oriented sources, while downranking authoritarian, hypersexualized content and .edu domains. It also discards big media sites. Perfect goggles for an AnarchoCapitalist/Minarchist/Objectivist/paleoLibertarian
 ! public: true
-! author: Xplshn, JP B
+! author: Xplshn, JP B and portions taken from AllSides
 ! avatar: #ffd700
 ! license: BipCot NoGov Software License https://github.com/xplshn/goggles/raw/master/LICENSE
 ! issues: https://github.com/xplshn/goggles/issues
@@ -15,6 +15,8 @@
 /r/libertarian/$boost=3,site=reddit.com
 
 ! Libertarian Newsites
+$boost=2,site=mises.org
+$boost=10,site=antiwar.com
 $boost=9,site=libertarianinstitute.org
 $boost=9,site=ronpaulinstitute.org
 $boost=8,site=fee.org
@@ -46,8 +48,6 @@ $boost=2,site=pacificresearch.org
 $boost=2,site=atlasone.org
 $boost=2,site=ammo.com
 $boost=3,site=atlasnetwork.org
-$boost=2,site=mises.org
-$boost=2,site=mercatus.org
 
 ! Libertarian Blogs & Substack
 $boost=6,site=boriquagato.substack.com
@@ -65,7 +65,6 @@ $boost=1,site=bitchute.com
 
 ! Conservative Newsites
 $boost=2,site=unwokenarrative.com
-$boost=2,site=dailywire.com
 $boost=2,site=bluelivesmatter.blue
 $boost=2,site=babylonbee.com
 /r/conservative/$boost=1,site=reddit.com
@@ -204,7 +203,6 @@ $downrank=2,site=philly.com
 $downrank=2,site=peacock-panache.com
 $downrank=2,site=nynmedia.com
 $downrank=2,site=nymag.com
-$downrank=2,site=nydailynews.com
 $downrank=2,site=nj.com
 $downrank=2,site=newyorker.com
 $downrank=2,site=newsone.com
@@ -289,7 +287,7 @@ $downrank=3,site=mirror.co.uk
 $downrank=3,site=worldstarhiphop.com
 $downrank=3,site=motherjones.com
 $downrank=3,site=rawstory.com
-$downrank=3,site=occupydemocrats.com
+$downrank=3,site=occupydemocrats.org
 $downrank=3,site=liberalamerica.org
 $downrank=3,site=redstate.com
 $downrank=3,site=dailycaller.com
@@ -514,8 +512,11 @@ $discard=1,site=404media.net
 $discard=1,site=politi.co
 $discard=1,site=ign.com
 $discard=1,site=kotaku.com
+$discard=1,site=polygon.com
+$discard=1,site=gameinformer.com
 $discard=1,site=themarysue.com
 $discard=1,site=dailystar.co.uk
+$discard=1,site=jezebel.com
 $discard=1,site=dailymail.co.uk
 $discard=1,site=crunchyroll.com
 $discard=1,site=animenewsnetwork.com
