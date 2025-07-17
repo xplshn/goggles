@@ -307,45 +307,45 @@ $downrank=3,site=who.int
 $downrank=3,site=weforum.org
 
 ! Saying any of the following keywords already discredits you. Now it also downranks you:
-$downrank=2,far-right ! what even is "far-right"? no one on the left nor center seems to agree. Apparently democrats from 20-years ago could be considered far-right by the new standards imposed by the media
-$downrank=1,moderate-left ! is such a thing possible?
-$downrank=1,activism
-$downrank=2"free*healthcare"
-$downrank=2,"free*state-owned*"
-$downrank=2,fascist ! only the center-left to extreme-left call other people fascist, usually because they don't have anything specific to criticize
-$downrank=1,nazi ! same as above
-$downrank=3,"punch nazis" ! everyone is a nazi according to the left., this is their justification for their violence
-$downrank=4,tiktok
-$downrank=2,experts
+far-right$downrank=2 ! what even is "far-right"? no one on the left nor center seems to agree. Apparently democrats from 20-years ago could be considered far-right by the new standards imposed by the media
+moderate-left$downrank=1 ! is such a thing possible?
+activism$downrank=1
+"free*healthcare"$downrank=2
+"free*state-owned*"$downrank=2
+fascist$downrank=2 ! only the center-left to extreme-left call other people fascist, usually because they don't have anything specific to criticize
+nazi$downrank=1 ! same as above
+"punch nazis"$downrank=3 ! everyone is a nazi according to the left., this is their justification for their violence
+tiktok$downrank=4
+experts$downrank=2
 
 ! Downrank hypersexualized stuff
-$downrank=1,hypersexual
-$downrank=1,sexualization
-$downrank=1,hypersexualization
+hypersexual$downrank=1
+sexualization$downrank=1
+hypersexualization$downrank=1
 
 ! Downrank corporation-backed movements (see: https://www.opensocietyfoundations.org/grants/past)
-$downrank=1,pride
-$downrank=1,prideMonth
-$downrank=1,pride_month
+pride$downrank=1
+prideMonth$downrank=1
+pride_month$downrank=1
 ! ---
-$downrank=1,blmMonth
-$downrank=1,blm_month
+blmMonth$downrank=1
+blm_month$downrank=1
 ! ---
-$downrank=1,transPride
-$downrank=1,transMonth
-$downrank=1,trans_pride
-$downrank=1,trans_month
+transPride$downrank=1
+transMonth$downrank=1
+trans_pride$downrank=1
+trans_month$downrank=1
 ! ---
 
 ! misc (looking up these terms is useless. The media has produced so much fake content around the topic that it makes more sense to go to web.archive.org to find the real research that was being carried out up until 2012)
-$downrank=1,indigenous
-$downrank=1,aboriginal
+aboriginal$downrank=1
+indigenous$downrank=1
 
 ! gets too much attention because of the other boosts, so let's downrank by one
-$downrank=1,argentina
+argentina$downrank=1
 
 ! should get more attention because its a case of success
-$boost=1,poland
+poland$boost=1
 
 ! Sites to discard entirely (Propaganda/Extremely Biased)
 $discard=1,site=nytimes.com
