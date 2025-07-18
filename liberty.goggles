@@ -120,14 +120,20 @@ $boost=1,site=christianitytoday.com
 $boost=1,site=capitalresearch.org
 
 ! Other boosted sites (Not necessarily focused on Libertarianism, but share a lot of common ground)
-$boost=5,site=derechadiario.com.ar
 $boost=5,site=gaysagainstgroomers.com
 $boost=4,site=childrenshealthdefense.org
 $boost=4,site=nichegamer.com
+$boost=3,site=derechadiario.com.ar
 $boost=1,site=thegrayzone.com
 $boost=1,site=zerohedge.com
 $boost=1,site=mintpressnews.com
 $boost=1,site=wattsupwiththat.com
+
+! blogs & paleoLibertarian ppl's websites
+boost=2,site=managainstthestate.blogspot.com
+boost=2,site=cat-v.org
+boost=2,site=xplshn.com.ar
+! if you know of more interesting blogs and sites, suggest them via an Issue!
 
 ! Have been ruined by their political agenda
 $downrank=5,site=eff.org
