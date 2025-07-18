@@ -335,10 +335,11 @@ hypersexual$downrank=1
 sexualization$downrank=1
 hypersexualization$downrank=1
 
-! Downrank corporation-backed movements (see: https://www.opensocietyfoundations.org/grants/past)
+! Downrank corporation-backed movements (see: https://www.opensocietyfoundations.org/grants/past) ! NOTE: I've got nothing against the group of people they say they represent. Its just that it comes as a complete political ideology pack 99% of time.
 pride$downrank=1
 prideMonth$downrank=1
 pride_month$downrank=1
+🏳️‍🌈$downrank=4
 ! ---
 blmMonth$downrank=1
 blm_month$downrank=1
@@ -347,6 +348,7 @@ transPride$downrank=1
 transMonth$downrank=1
 trans_pride$downrank=1
 trans_month$downrank=1
+🏳️‍⚧$downrank=4
 ! ---
 
 ! misc (looking up these terms is useless. The media has produced so much fake content around the topic that it makes more sense to go to web.archive.org to find the real research that was being carried out up until 2012)
