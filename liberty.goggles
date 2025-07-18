@@ -124,6 +124,7 @@ $boost=5,site=gaysagainstgroomers.com
 $boost=4,site=childrenshealthdefense.org
 $boost=4,site=nichegamer.com
 $boost=2,site=derechadiario.com.ar
+$boost=2,site=dailywire.com
 $boost=1,site=thegrayzone.com
 $boost=1,site=zerohedge.com
 $boost=1,site=mintpressnews.com
@@ -552,7 +553,6 @@ $discard=1,site=twincities.com
 $discard=1,site=reddit.com
 $discard=1,site=bbc.co.uk
 $discard=1,site=motherboard.vice.com
-$discard=1,site=dailywire.com
 $discard=1,site=rt.com
 $discard=1,site=theregister.com
 $discard=1,site=marketwatch.com
